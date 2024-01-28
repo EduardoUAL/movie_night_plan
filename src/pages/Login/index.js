@@ -33,7 +33,7 @@ function Login() {
 
   return (
     <div className="container">
-      <h1>Explorando React com Firebase</h1>
+      <h1>Movie Night Plan</h1>
       <h2>Login</h2>
       <form onSubmit={handleSubmit}>
         <label>Email:</label>
@@ -53,10 +53,10 @@ function Login() {
           onChange={(e) => setSenha(e.target.value)}
           required
         />
-        <button>Entar</button>
+        <button>Entrar</button>
       </form>
       <p>
-        Ainda não tem uma conta? <Link to="/cadastro">Cadastre-se aqui</Link>
+        Ainda não tens uma conta? <Link to="/cadastro">Resgista-te aqui</Link>
       </p>
     </div>
   );
