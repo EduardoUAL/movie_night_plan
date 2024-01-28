@@ -20,14 +20,14 @@ function Login() {
 
     try {
       await signInWithEmailAndPassword(auth, email, senha);
-      console.log("Usuário logado com sucesso!");
-      toast.success("Usuário logado com sucesso!");
+      console.log("Login efectuado com sucesso!");
+      toast.success("Login efectuado com sucesso!");
 
       navigate("/home");
     } catch (error) {
-      console.error("Erro ao logar:", error.message);
+      console.error("Erro no login:", error.message);
       // Adicione feedback visual para o usuário, se necessário.
-      toast.error(`Erro ao logar: ${error.message}`);
+      toast.error(`Erro no login: ${error.message}`);
     }
   }
 
@@ -39,7 +39,7 @@ function Login() {
         <label>Email:</label>
         <input
           type="text"
-          placeholder="Digite seu email"
+          placeholder="Escreva o seu email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           required
@@ -48,7 +48,7 @@ function Login() {
         <label>Senha:</label>
         <input
           type="password"
-          placeholder="Digite sua senha"
+          placeholder="Escreva a sua senha"
           value={senha}
           onChange={(e) => setSenha(e.target.value)}
           required

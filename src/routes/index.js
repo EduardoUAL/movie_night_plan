@@ -2,7 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import "react-toastify/dist/ReactToastify.css";
 
 //Pages
-import CadastroUsuario from "../pages/CadastroUsuario";
+import CadastroUsuario from "../pages/RegistarUtilizador";
 import Login from "../pages/Login";
 import Conta from "../pages/Conta";
 import Home from "../pages/Home";
@@ -19,7 +19,7 @@ const RoutesApp = () => {
     const { user, loadingUser } = useAuth();
 
     if (loadingUser) {
-      return <p>Caregando ...</p>;
+      return <p>A carregar ...</p>;
     }
   return (
     <div className="container-routesApp">

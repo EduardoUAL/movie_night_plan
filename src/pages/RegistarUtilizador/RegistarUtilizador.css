@@ -1,6 +1,6 @@
-/* CadastroUsuario.css */
+/* RegistarUtilizador.css */
 
-.container_cadastro {
+.container_resgisto {
     max-width: 400px;
     margin: 35px auto;
     padding: 20px;
@@ -55,7 +55,7 @@ p {
   
 /* Estilo adicional para tornar o layout mais responsivo */
 @media screen and (max-width: 500px) {
-    .container_cadastro{
+    .container_registo{
         margin: 45px 45px;
         padding: 65px 10px;
     }

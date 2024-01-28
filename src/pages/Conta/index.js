@@ -69,7 +69,7 @@ const Conta = () => {
       </p>
       <p>
         {" "}
-        <span className="span-conta">ID do usuário:</span> {uid}
+        <span className="span-conta">ID do utilizador:</span> {uid}
       </p>
     </div>
   );

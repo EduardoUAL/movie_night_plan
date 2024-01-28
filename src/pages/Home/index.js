@@ -34,7 +34,7 @@ const Home = () => {
               src={`https://image.tmdb.org/t/p/w500/${filme.poster_path}`}
               alt={filme.title}
             />
-            <Link to={`/filme/${filme.id}`}>Acessar</Link>
+            <Link to={`/filme/${filme.id}`}>Aceder</Link>
           </article>
         ))}
       </div>

@@ -28,7 +28,7 @@ const Filme = () => {
         .get(`/movie/${id}`, {
           params: {
             api_key: "46351781a58dd45b6ed0c086acbcb999",
-            language: "pt-BR",
+            language: "pt-PT",
           },
         })
         .then((response) => {
@@ -132,7 +132,7 @@ const Filme = () => {
   if (loading) {
     return (
       <div className="filme-info">
-        <h1>Carregando detalhes ...</h1>
+        <h1>A carregar detalhes ...</h1>
       </div>
     );
   }

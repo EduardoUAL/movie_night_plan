@@ -62,7 +62,7 @@ const Navbar = () => {
           {!user && (
             <>
               <li>
-                <Link to="/cadastro">Cadastrar</Link>
+                <Link to="/cadastro">Registar</Link>
               </li>
             </>
           )}
@@ -87,7 +87,7 @@ const Navbar = () => {
           {user && (
             <>
               <li>
-                <Link to="/conta">Minha conta</Link>
+                <Link to="/conta">A minha conta</Link>
               </li>
             </>
           )}
@@ -145,7 +145,7 @@ const Navbar = () => {
             )}
             {!user && (
               <li onClick={handleMenuItemClick}>
-                <Link to="/cadastro">Cadastrar</Link>
+                <Link to="/cadastro">Registar</Link>
               </li>
             )}
           </ul>
