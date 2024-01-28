@@ -1,17 +1,19 @@
 import { initializeApp } from "firebase/app";
 
+
 import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 
+
+
 const firebaseConfig = {
-  apiKey: "AIzaSyC7c65cGgP4yxkMRrE5Q5iXW8u590zzhmY",
-  authDomain: "movie-night-plan.firebaseapp.com",
-  projectId: "movie-night-plan",
-  storageBucket: "movie-night-plan.appspot.com",
-  messagingSenderId: "380653216813",
-  appId: "1:380653216813:web:29a0d430c788edfdcd84a4",
-  measurementId: "G-7EFFYPJGTZ"
+  apiKey: "AIzaSyCJZqInRuto4Pg3UEWLp_WI_hGcYoiTb4Q",
+  authDomain: "movie-night-plan-c63e6.firebaseapp.com",
+  projectId: "movie-night-plan-c63e6",
+  storageBucket: "movie-night-plan-c63e6.appspot.com",
+  messagingSenderId: "910692422723",
+  appId: "1:910692422723:web:a4fe4da442e88ee4e3b0f6"
 };
 
 // Initialize Firebase

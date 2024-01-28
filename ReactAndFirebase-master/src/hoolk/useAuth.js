@@ -7,7 +7,9 @@ import { useEffect, useState } from "react"
 
 const useAuth = () => {
     const [user, setUser] = useState(undefined);
-    const loadingUser = user === undefined;
+    //const loadingUser = user === undefined;
+    const loadingUser = {};
+    console.log("Usuario duseAuth",user)
 
     useEffect(() => {
         const unsubscribe = onAuthStateChanged(auth, (user) => {
