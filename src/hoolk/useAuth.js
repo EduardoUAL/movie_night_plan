@@ -7,8 +7,8 @@ import { useEffect, useState } from "react"
 
 const useAuth = () => {
     const [user, setUser] = useState(undefined);
-    //const loadingUser = user === undefined;
-    const loadingUser = {};
+    const loadingUser = user === undefined;
+    //const loadingUser = {};
     console.log("Usuario duseAuth",user)
 
     useEffect(() => {
