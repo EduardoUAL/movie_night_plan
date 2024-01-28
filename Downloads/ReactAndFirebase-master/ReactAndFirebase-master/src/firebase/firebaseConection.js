@@ -5,13 +5,13 @@ import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyC7c65cGgP4yxkMRrE5Q5iXW8u590zzhmY",
-  authDomain: "movie-night-plan.firebaseapp.com",
-  projectId: "movie-night-plan",
-  storageBucket: "movie-night-plan.appspot.com",
-  messagingSenderId: "380653216813",
-  appId: "1:380653216813:web:29a0d430c788edfdcd84a4",
-  measurementId: "G-7EFFYPJGTZ"
+  apiKey: "AIzaSyCUlezsS4e-v1N5FTqmzmEl9NZKIJjVfwA",
+  authDomain: "jamesteste-11a1e.firebaseapp.com",
+  projectId: "jamesteste-11a1e",
+  storageBucket: "jamesteste-11a1e.appspot.com",
+  messagingSenderId: "550123566332",
+  appId: "1:550123566332:web:810fb8afe912034bd91379",
+  measurementId: "G-23RRBSR8BX",
 };
 
 // Initialize Firebase
