@@ -1,0 +1,150 @@
+.navbar {
+  background-color: #333;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo{
+ cursor: pointer;
+ margin-right: auto; 
+ align-self: center;
+ margin-left: 30px;
+
+} 
+
+.container-lis{
+  width: 50%;
+}
+  
+.container-lis ul {
+  list-style: none;
+  margin: 10px  auto;
+  padding: 15px;
+  display: flex; 
+  justify-content: flex-end;
+} 
+
+
+ .container-lis li {
+  margin-right: 3%;
+} 
+
+ .container-lis li:last-child {
+  margin-right: 0;
+}
+
+
+ .container-lis li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+} 
+
+.container-lis button {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: transparent;
+  padding: 0;
+  font-size: 17px;
+}  
+
+.menu-icon {
+  display: none; 
+  cursor: pointer;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: row-reverse;
+    height: 60px; 
+  }
+
+  .logo {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .container-lis {
+    width: 100%; 
+  }
+
+  .container-lis ul {
+    justify-content: center; 
+  }
+
+  .container-lis li {
+    margin-right: 0; 
+    margin-bottom: 10px; 
+  }
+
+  /* menu hamburguer */
+
+  .menu-icon {
+    display: block;
+    font-size: 25px;
+    color: white;
+    position: fixed;
+    top: 10px; 
+    left: 10px; 
+    z-index: 1000;
+  }
+
+  .container-lis {
+    display: none; 
+  }
+
+  .mobile-menu {
+    display: block;
+    position: fixed;
+    top: 20px; 
+    left: 0;
+    width: 30%;
+    background-color: #333;
+  }
+
+  .mobile-menu ul {
+    list-style: none;
+    margin: 15px  auto;
+    padding: 20px;
+  }
+
+  .mobile-menu li {
+    margin-top: 10px;
+  }
+
+
+  .mobile-menu li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+
+  .mobile-menu.menu-open li {
+    margin-top: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+  }
+
+ .mobile-menu.menu-open li:hover {
+    background-color: #555; 
+  }
+
+  .mobile-menu.menu-open li a {
+    text-decoration: none;
+    color: white; 
+    font-weight: bold;
+    transition: color 0.3s ease; 
+  }
+
+  .mobile-menu.menu-open li:hover a {
+    color: red; 
+  }
+}
+
+
+
