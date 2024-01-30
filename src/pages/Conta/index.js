@@ -42,7 +42,7 @@ const Conta = () => {
 
   return (
     <div className="conta-container">
-      <h2> Minha conta </h2>
+      <h2>A Minha conta </h2>
       {fotoUrl && (
         <img className="foto-perfil" src={fotoUrl} alt="Foto de Perfil" />
       )}
