@@ -7,7 +7,7 @@ import { auth } from "../../firebase/firebaseConection";
 
 import "./Navbar.css";
 
-import logo from "../../img/reactflix30.png";
+import logo from "../../img/movienightplan30.png";
 
 //Menu Hamburger
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -24,7 +24,7 @@ const Navbar = () => {
   };
 
   if (loadingUser) {
-    return <p>Carregando...</p>;
+    return <p>A carregar...</p>;
   }
 
   async function handleLogout() {
@@ -44,7 +44,7 @@ const Navbar = () => {
         <img
           className="img-logo"
           src={logo}
-          alt="Logo do reactflix"
+          alt="Logo do movienightplan"
           onClick={() => navigate("/home")}
         />
       </div>
@@ -62,7 +62,7 @@ const Navbar = () => {
           {!user && (
             <>
               <li>
-                <Link to="/cadastro">Registar</Link>
+                <Link to="/Registo">Registar</Link>
               </li>
             </>
           )}
@@ -145,7 +145,7 @@ const Navbar = () => {
             )}
             {!user && (
               <li onClick={handleMenuItemClick}>
-                <Link to="/cadastro">Registar</Link>
+                <Link to="/Registo">Registar</Link>
               </li>
             )}
           </ul>

@@ -56,7 +56,7 @@ const Favoritos = () => {
 
   return (
     <div className="favoritos-container">
-      <h1>Meus Filmes Favoritos</h1>
+      <h1>Os Meus Filmes Favoritos</h1>
       {favorito.map((filme) => ( 
         <div key={filme.id} className="favoritos-item">
           <h3>{filme.title}</h3>

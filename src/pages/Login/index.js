@@ -26,7 +26,7 @@ function Login() {
       navigate("/home");
     } catch (error) {
       console.error("Erro no login:", error.message);
-      // Adicione feedback visual para o usuário, se necessário.
+      // Adicione feedback visual para o utilizador, se necessário.
       toast.error(`Erro no login: ${error.message}`);
     }
   }
@@ -56,7 +56,7 @@ function Login() {
         <button>Entrar</button>
       </form>
       <p>
-        Ainda não tens uma conta? <Link to="/cadastro">Resgista-te aqui</Link>
+        Ainda não tens uma conta? <Link to="/Registo">Resgista-te aqui</Link>
       </p>
     </div>
   );
