@@ -2,7 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import "react-toastify/dist/ReactToastify.css";
 
 //Pages
-import ResgistarUtilizador from "../pages/RegistarUtilizador";
+import RegistarUtilizador from "../pages/RegistarUtilizador";
 import Login from "../pages/Login";
 import Conta from "../pages/Conta";
 import Home from "../pages/Home";
@@ -32,7 +32,7 @@ const RoutesApp = () => {
           }
         />
           
-        <Route path="/resgisto" element={<ResgistarUtilizador />} />
+        <Route path="/resgisto" element={<RegistarUtilizador />} />
 
         <Route
           path="/home"
