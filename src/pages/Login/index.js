@@ -56,7 +56,7 @@ function Login() {
         <button>Entrar</button>
       </form>
       <p>
-        Ainda não tens uma conta? <Link to="/Registo">Resgista-te aqui</Link>
+        Ainda não tens uma conta? <Link to="/registo">Regista-te aqui</Link>
       </p>
     </div>
   );

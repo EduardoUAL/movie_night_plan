@@ -27,7 +27,7 @@ const RegistarUtilizador = () => {
 
       await updateProfile(auth.currentUser, { displayName: nome });
 
-      toast.success("Utilizador resgistado com sucesso!");
+      toast.success("Utilizador registado com sucesso!");
       navigate("/home");
     } catch (error) {
       console.log("Utilizador não registado", error);
