@@ -32,7 +32,7 @@ const RoutesApp = () => {
           }
         />
           
-        <Route path="/Resgisto" element={<ResgistarUtilizador />} />
+        <Route path="/resgisto" element={<ResgistarUtilizador />} />
 
         <Route
           path="/home"
